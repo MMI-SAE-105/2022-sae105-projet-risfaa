@@ -1,0 +1,43 @@
+footer{
+    text-align: center;
+    background-color: var(--blue-egyptien) ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 15px;
+}
+.footer-couleur-text{
+    color: white;
+    padding: auto;
+}
+.footer-taille-text{
+    font-weight: normal;
+    font-size: x-small;
+    margin: 0;
+    margin-top: 25px;
+}
+.footer-taille{
+    color: white;
+    font-weight: bold;
+    font-size: x-small;
+}
+.footer-bas-fond{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 25px;
+    font-weight: normal;
+    font-size: medium;
+}
+.footer__nom-site{
+    font-family:'Inter', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-page-annexe{
+        color: white;
+        text-align: center;
+        margin: 0;
+}
+.footer__reseaux{
+   
