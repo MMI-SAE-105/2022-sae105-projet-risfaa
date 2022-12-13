@@ -1,0 +1,14 @@
+:root {
+/* Color styles */
+--blue-égyptien: #1E366D;
+--blue-lapis-lazuli: #26619C;
+--blue-roi: #4169E1;
+
+/* Text-size styles */
+--heading-1: 30px;
+--heading-3: 28px;
+--subheading-1: 24px;
+--body-1: 18px;
+--body-2: 26px;
+--body-3: 20px;
+}
