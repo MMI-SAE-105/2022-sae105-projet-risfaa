@@ -1,7 +1,25 @@
 header {
-
     background-color: var(--blue-lapis-lazuli);
-
-
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 15%;
+}
+.header__icone-fr{
+    height:25px;
+    width: 25px;
+    
+    position: absolute;
+    left: 5%;
+    right: 85%;
+    top: 8%;
+    bottom: 64.67%;
+}
+.header__nom-site {
+    font-family:'Inter', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
 }

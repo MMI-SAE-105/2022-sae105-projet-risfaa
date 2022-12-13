@@ -6,10 +6,16 @@
 @import url("vendors/normalize.css");
 
 /* utils */
+@import url("utils/variable.css");
 
 /* base */ 
-@import url("base/main.css")
+@import url("base/main.css");
+@import url("base/media.css");
 
 /* layout */ 
+@import url("layout/header.css");
+@import url("layout/footer.css");
+
 
 /* compenant */ 
+@import url("components/menu.css");
