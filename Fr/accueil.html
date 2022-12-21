@@ -13,27 +13,30 @@
         <a href="/fr/">
             <img class="header__icone-fr" src="../public/asset/icone/icone_lang_fr.svg" alt="icone langue Fr">
         </a>
-        <div class="menu__nav-toggle">
+        <div class="menu__nav-toggle" onclick="document.body.classList.toggle('menu-open')">
             <div class="menu__nav-toggle-bar"></div>
         </div>
         <h1 class="header__nom-site">Souvenir d'avant</h1>
 
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="./Manhattan.html">Manhattan</a></li>
-                <li><a href="./Ice_Cube_it_was_a_good_day.html">Ice_Cube_it_was_a_good_day</a></li>
-                <li><a href="./Batman_annee_un.html">Batman_annee_un</a></li>
-                <li><a href="./The_Batman.html">The_Batman</a></li>
-                <li><a href="./ia_vs_humain.html">ia_vs_humain</a></li>
-                <li><a href="./solutions_rechauffement_climatique.html">solutions_rechauffement_climatique</a></li>
+                <li class="menu__list"><a href="./Manhattan.html">Manhattan</a></li>
+                <li class="menu__list"><a href="./Ice_Cube_it_was_a_good_day.html">Ice Cube : it was a good day</a></li>
+                <li class="menu__list"><a href="./Batman_annee_un.html">Batman année un</a></li>
+                <li class="menu__list"><a href="./The_Batman.html">The Batman</a></li>
+                <li class="menu__list"><a href="./ia_vs_humain.html">Ia vs Humains</a></li>
+                <li class="menu__list"><a href="./solutions_rechauffement_climatique.html">Solutions réchauffement climatique</a></li>
             </ul>
         </nav>
 
     </header>
-
-    <section>
-        <p>La culture populair, ne cesse de se développer surtout depuis l'arrivée d'internet.</p>
-        <p>Comparé à avant la pop culture est bien plus répandue avec des communautés et des fans présents partout à travers le monde.</p>
+    
+    <section class="intro"> 
+        <img class="vague" src="../public/img/vague.webp" alt="motif">   
+        <div class="texte__intro">
+            <p>La culture populair, ne cesse de se développer surtout depuis l'arrivée d'internet.</p>
+            <p>Comparé à avant la pop culture est bien plus répandue avec des communautés et des fans présents partout à travers le monde.</p>
+        </div>
     </section>
 
     <article> 
@@ -85,30 +88,32 @@
     <footer>
         <h1 class="footer__nom-site">Souvenir d'avant</h1>
 
-        <img src="../public/asset/icone/MMI_dut_small_white 2.svg" alt="logo mmi montbélard">
+        <img class="footer__logo-mmi" src="../public/asset/icone/MMI_dut_small_white 2.svg" alt="logo mmi montbélard">
 
         <ul>
-            <li><a class="footer-page-annexe" href="./a_propos.html">A propos</a></li>
-            <li><a class="footer-page-annexe" href="./contact.html">Contact</a></li>
-            <li><a class="footer-page-annexe" href="./glossaire.html">Glossaire</a></li>
-            <li><a class="footer-page-annexe" href="./autres_projets.html">Autres projets</a></li>
+            <li class="footer__autres"><a href="./a_propos.html">A propos</a></li>
+            <li class="footer__autres"><a href="./contact.html">Contact</a></li>
+            <li class="footer__autres"><a href="./glossaire.html">Glossaire</a></li>
+            <li class="footer__autres"><a href="./autres_projets.html">Autres projets</a></li>
         </ul>
 
-        <div class="footer__reseaux">
-        <ul>
-            <li><a href="https://twitter.com/Korroooo"><img src="../public/asset/icone/twitter.svg" alt="logo twitter"></a></li>
-            <li><a href="https://www.instagram.com/faritasssse/"><img src="../public/asset/icone/instagram.svg" alt="logo instagram"></a></li>
-            <li><a href="https://www.linkedin.com/in/faris-halepovic-018004254/"><img src="../public/asset/icone/linkedin.svg" alt="logo linkedin"></a></li>
+
+        <ul class="footer__reseaux-sociaux">
+            <li><a href="https://twitter.com/Korroooo"><img class="footer__icone-reseaux" src="../public/asset/icone/twitter.svg" alt="logo twitter"></a></li>
+            <li><a href="https://www.instagram.com/faritasssse/"><img class="footer__icone-reseaux" src="../public/asset/icone/instagram.svg" alt="logo instagram"></a></li>
+            <li><a href="https://www.linkedin.com/in/faris-halepovic-018004254/"><img class="footer__icone-reseaux" src="../public/asset/icone/linkedin.svg" alt="logo linkedin"></a></li>
         </ul>
+        
+
+        <a class="footer__mailto" href="mailto:faris.halepovic@gmail.com">faris.halepovic@gmail.com</a>
+        <p class="footer__paragraphe">projet réalisé dans le cadre d'un exercice pédagogique au département
+        <a class="footer__lien-mmi" href="http://mmimontbeliard.com/"><strong>MMI Montbéliard</strong></a></p>
+        
+        <div class="footer__fin">
+            <p>Faris HALEPOVIC</p>
+            <p>MMI</p>
         </div>
 
-        <a class="footer-couleur-text" href="mailto:faris.halepovic@gmail.com">faris.halepovic@gmail.com</a>
-        <p class="footer-taille-text">projet réalisé dans le cadre d'un exercice pédagogique au département</p>	
-        <a class="footer-taille" href="http://mmimontbeliard.com/">MMI Montbéliard</a>
-        <div class="footer-bas-fond">
-        <p>Faris HALEPOVIC</p>
-        <p>MMI</p>
-        </div>
     </footer>
 
 </body>

@@ -1,43 +1,53 @@
 footer{
+    background-color: var(--blue-egyptien);
+    color: white;
     text-align: center;
-    background-color: var(--blue-egyptien) ;
-    color: white;
+    padding: 10px;
+}
+
+.footer__nom-site{
     font-family: 'Inter', sans-serif;
-    padding-top: 15px;
-}
-.footer-couleur-text{
-    color: white;
-    padding: auto;
-}
-.footer-taille-text{
+    font-size: normal;
     font-weight: normal;
-    font-size: x-small;
-    margin: 0;
-    margin-top: 25px;
 }
-.footer-taille{
+.footer__logo-mmi{
+
+}
+.footer__autres >a{
+    font-size: 20px;
     color: white;
-    font-weight: bold;
-    font-size: x-small;
 }
-.footer-bas-fond{
+.footer__autres{
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
+}
+.footer__reseaux-sociaux{
     display: flex;
     justify-content: space-between;
-    margin-inline: 25px;
-    font-weight: normal;
-    font-size: medium;
+    margin-inline: 80px;
+    padding: 25px;
 }
-.footer__nom-site{
-    font-family:'Inter', sans-serif;
-    font-weight: normal;
+.footer__mailto{
     color: white;
-    text-align: center;
-    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
 }
-.footer-page-annexe{
-        color: white;
-        text-align: center;
-        margin: 0;
+.footer__paragraphe{
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
 }
-.footer__reseaux{
-   
+.footer__lien-mmi{
+    color: white;
+}
+.footer__icone-reseaux{
+    height: 25px;
+    width: 25px;
+}
+.footer__fin{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10px;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
