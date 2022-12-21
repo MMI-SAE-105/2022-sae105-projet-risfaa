@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-  
+    
 }
 .header__icone-fr{
     height:25px;
@@ -13,7 +13,7 @@ header {
     position: absolute;
     left: 5%;
     right: 85%;
-    top: 8%;
+    top: 17px;
     bottom: 64.67%;
 }
 .header__nom-site {
