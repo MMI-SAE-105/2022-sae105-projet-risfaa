@@ -7,8 +7,8 @@ footer{
 
 .footer__nom-site{
     font-family: 'Inter', sans-serif;
-    font-size: normal;
     font-weight: normal;
+    color: white;
 }
 .footer__logo-mmi{
 
