@@ -71,3 +71,23 @@ article{
     padding: 7px;
     padding-top: 5px;
 }
+.texte_intro-article-espoir{
+    font-family: 'Lora',serif;
+    text-align: center;
+    color: var(--blue-egyptien);
+    font-weight: 400;
+    margin-inline: 30px;
+    margin-bottom: 45px;
+    font-size: var(--heading-3);
+}
+.block_article-espoir{
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-top: 75px;
+    box-shadow: black 1px 1px 3px;
+    padding: 10px;
+}
+.contenu_texte-article-espoir{
+    padding: 7px;
+    padding-top: 5px;
+}
