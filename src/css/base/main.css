@@ -155,3 +155,28 @@ article{
     font-size: small;
     padding: 25px;
 }
+.texte_intro-article-lieu{
+    font-family: 'Lora',serif;
+    text-align: center;
+    color: var(--blue-egyptien);
+    font-weight: 400;
+    margin-inline: 30px;
+    margin-bottom: 45px;
+    font-size: var(--heading-3);
+}
+.block_article-lieu{
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-top: 75px;
+    box-shadow: black 1px 1px 3px;
+    padding: 10px;
+}
+.contenu_texte-article-lieu{
+    padding: 7px;
+    padding-top: 5px;
+}
+.description_image-lieu{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+}
