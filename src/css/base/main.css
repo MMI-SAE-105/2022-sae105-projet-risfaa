@@ -26,7 +26,7 @@ h2{
 
 .texte__intro{
  position: absolute;
- top: -20px;
+ top: 5px;
  color: white;  
  font-family:'Lora',serif;
  font-size: var(--subheading-1);
@@ -130,4 +130,28 @@ article{
 .contenu_texte-article-musique{
     padding: 7px;
     padding-top: 5px;
+}
+.texte_intro-article-livre{
+    font-family: 'Lora',serif;
+    text-align: center;
+    color: var(--blue-egyptien);
+    font-weight: 400;
+    margin-inline: 30px;
+    margin-bottom: 45px;
+    font-size: var(--heading-3);
+}
+.block_article-livre{
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-top: 75px;
+    box-shadow: black 1px 1px 3px;
+    padding: 10px;
+}
+.contenu_texte-article-livre{
+    padding: 10px;
+    padding-top: 5px;
+}
+.decouverte_autre-article{
+    font-size: small;
+    padding: 25px;
 }
