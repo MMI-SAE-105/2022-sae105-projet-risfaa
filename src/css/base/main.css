@@ -152,8 +152,9 @@ article{
     padding-top: 5px;
 }
 .decouverte_autre-article{
-    font-size: small;
-    padding: 25px;
+    font-size: x-small;
+    text-align: center;
+    padding: 55px;
 }
 .texte_intro-article-lieu{
     font-family: 'Lora',serif;
@@ -179,4 +180,10 @@ article{
     font-size: medium;
     text-align: center;
     font-weight: 400;
+}
+.decouverte_sur-autre-article{
+    font-size: x-small;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
 }
