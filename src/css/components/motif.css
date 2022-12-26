@@ -1,19 +1,17 @@
-.motif_barre-bleu{
+.motif_barre-bleu-gauche,
+.motif_barre-bleu-droite{
     background-color: var(--blue-egyptien);
     height: 7px;
-    width: 25px;
-    position: relative;
-    margin: 100px;
+    width: 275px;
+    margin: 10px;
 }
-
-
 .motif_barre-bleu-gauche{
-    left: 0;
-    position: absolute;
-    content: "";
+    margin-left: -10px;
+    margin-bottom: 13px;
+    border-radius: 0 3px 3px 0;
 }
 .motif_barre-bleu-droite{
-    right: 0;
-    position: absolute;
-    content: "";
+    margin-left: 70px;
+    margin-bottom: 13px;
+    border-radius: 3px 0 0 3px;
 }
