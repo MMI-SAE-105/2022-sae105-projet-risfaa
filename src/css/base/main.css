@@ -245,3 +245,28 @@ article{
     margin-top: 45px;
     padding: 10px;
 }
+.block_autres-projets{
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    box-shadow: black 1px 1px 5px;
+    padding: 10px;
+}
+.titre_page-annexe-autres-projets{
+    text-align: center;
+    margin-bottom: -30px;
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--blue-roi);
+}
+.titre_autres-projets-eleves{
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--blue-egyptien);
+}
+.nom_eleves{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
