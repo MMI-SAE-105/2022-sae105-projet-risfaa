@@ -218,3 +218,17 @@ article{
     margin-bottom: 3px;
     margin-top: 15px;
 }
+.glossaire{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+    font-size: medium;
+
+}
+.block_glossaire{
+    margin: 10px;
+    margin-bottom: 60px;
+    margin-top: 75px;
+    box-shadow: black 1px 1px 5px;
+    padding: 10px;
+}
