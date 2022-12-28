@@ -176,12 +176,6 @@ article{
     padding: 7px;
     padding-top: 5px;
 }
-.description_image-lieu{
-    font-size: medium;
-    text-align: center;
-    font-weight: 400;
-    padding-bottom: 13px;
-}
 .decouverte_sur-autre-article{
     font-size: x-small;
     text-align: center;
@@ -269,4 +263,124 @@ article{
     margin-top: -25px;
     margin-bottom: 25px;
 }
-
+.taille_image-comics-batman-gauche{
+    width: 250px;
+}
+.taille_image-comics-batman-droite{
+    width: 250px;
+    margin-left: 85px;
+}
+.titre_comics-batman-ego{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 57px;
+}
+.titre_comics-batman-imposteur{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.titre_comics-catwoman-le-dernier-braquage{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.titre_comics-catwoman-a-rome{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 117px;
+}
+.titre_comics-batman-annee-un{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.titre_comics-batman-un-long-halloween{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 85px;
+}
+.titre_comics-batman-amere-victoire{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}   
+.titre_film-future-shock{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 27px;
+}
+.titre_film-le-porteur-de-cercueil{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.titre_film-cloverfield{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.titre_film-laisse-moi-entrer{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 94px;
+}
+.titre_film-la-planete-des-singes-affrontement{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.titre_film-la-planete-des-singes-suprematie{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.titre_film-the-batman{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.taille_image-frise-lieu-gauche{
+    width: 250px;
+}
+.taille_image-frise-lieu-droite{
+    width: 250px;
+    margin-left: 85px;
+}.description_image-lieu-1936{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: var(--blue-egyptien);
+    margin-left: 80px;
+}
+.description_image-lieu-1950{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: var(--blue-egyptien);
+    margin-right: 95px;
+}
+.description_image-lieu-1972{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: var(--blue-egyptien);
+    margin-left: 80px;
+}
+.description_image-lieu-2001{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: var(--blue-egyptien);
+    margin-right: 97px;
+}
+.description_image-lieu-2022{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: var(--blue-egyptien);
+    margin-left: 85px;
+}
