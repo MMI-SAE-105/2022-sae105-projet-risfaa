@@ -398,3 +398,10 @@ article{
     color: var(--blue-egyptien);
     margin-left: 85px;
 }
+.legend_video{
+    text-align: center;
+    display: flex;
+    color: var(--blue-egyptien);
+    margin-top: 5px;
+    font-size: smaller;
+}
