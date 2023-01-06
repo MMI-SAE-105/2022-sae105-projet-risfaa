@@ -1,7 +1,7 @@
 - NOM : HALEPOVIC
 - PRÉNOM : Faris
-- URL du site :
-- URL FIGMA :
+- URL du site : https://souvenir-d-avant.faris-halepovic.fr/
+- URL FIGMA : https://www.figma.com/file/fTYmkeSAOV1sAxbOf7cl3a/Maquettes-projet-individuel-%E2%80%94-faris-HALEPOVIC-(Copy)?node-id=0%3A1&t=1Ud7dBX2RtwVB9vj-1
 
 # Structure de départ pour le projet individuel.
 
