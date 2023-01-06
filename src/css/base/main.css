@@ -405,3 +405,11 @@ article{
     margin-top: 5px;
     font-size: smaller;
 }
+.legend_video_musique{
+    text-align: center;
+    margin-top: 5px;
+    color: var(--blue-egyptien);
+    font-size: smaller;
+    display: flex;
+    margin-left: 50px;
+}
