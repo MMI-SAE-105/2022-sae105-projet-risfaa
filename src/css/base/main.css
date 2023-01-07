@@ -412,3 +412,6 @@ article{
     display: flex;
     margin-left: 55px;
 }
+.legend_image{
+    color: var(--blue-egyptien);
+}
