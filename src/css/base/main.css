@@ -414,4 +414,19 @@ article{
 }
 .legend_image{
     color: var(--blue-egyptien);
+    margin-top: 5px;
+    text-align: center;
+    font-size: small;
+}
+.legend_image_film_gauche{
+    font-size: small;
+    color: var(--blue-egyptien);
+    margin-left: 95px;
+    margin-top: 5px;
+}
+.legend_image_film_droite{
+    font-size: small;
+    color: var(--blue-egyptien);
+    margin-left: 125px;
+    margin-top: 5px;
 }
