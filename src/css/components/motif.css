@@ -4,13 +4,13 @@
     height: 7px;
     width: 275px;
     margin: 10px;
+    margin-bottom: 13px;
 }
 .motif_barre-bleu-gauche{
     margin-left: -10px;
     border-radius: 0 3px 3px 0;
 }
 .motif_barre-bleu-droite{
-    width: 100%;
     margin-left: 70px;
     border-radius: 3px 0 0 3px;
 }
