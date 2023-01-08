@@ -26,3 +26,22 @@ video{
 .video{
     margin-top: 10px;
 }
+.image_page-annexe-a-propos{
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+.image_page-annexe-autres-projets{
+    margin-top: 45px;
+    margin-bottom: -90px;
+}
+.image_page-annexe-contact{
+    margin-top: 25px;
+    margin-bottom: -100px;
+}
+.image_page-annexe-glossaire-1{
+    margin-top: 25px;
+    margin-bottom: -75px;
+}
+.image_page-annexe-glossaire-2{
+    margin-top: -55px;
+}
