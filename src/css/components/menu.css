@@ -55,3 +55,8 @@
     text-decoration: none;
     color: var(--blue-egyptien);
 }
+.icone_menu{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
