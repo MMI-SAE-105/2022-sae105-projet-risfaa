@@ -154,7 +154,7 @@ article{
 .decouverte_autre-article{
     font-size: x-small;
     text-align: center;
-    padding: 55px;
+    padding: 45px;
 }
 .texte_intro-article-lieu{
     font-family: 'Lora',serif;
@@ -236,7 +236,7 @@ article{
 .form__input{
     margin: 10px;
     margin-bottom: 5px;
-    margin-top: 40px;
+    margin-top: 38px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -429,4 +429,86 @@ article{
     color: var(--blue-egyptien);
     margin-left: 125px;
     margin-top: 5px;
+}
+.decouverte_sur-autre-article-en{
+    font-size: x-small;
+    text-align: center;
+    font-weight: 400;
+    padding: 55px;
+}
+.decouverte_autre-article-en{
+    font-size: x-small;
+    text-align: center;
+    padding: 65px;
+}
+.titre_comics-batman-ego-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 57px;
+}
+.titre_comics-batman-imposteur-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.titre_comics-catwoman-le-dernier-braquage-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.titre_comics-catwoman-a-rome-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 117px;
+}
+.titre_comics-batman-annee-un-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.titre_comics-batman-un-long-halloween-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.titre_comics-batman-amere-victoire-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}   
+.titre_film-future-shock-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 27px;
+}
+.titre_film-le-porteur-de-cercueil-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 109px;
+}
+.titre_film-cloverfield-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.titre_film-laisse-moi-entrer-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.titre_film-la-planete-des-singes-affrontement-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-right: 120px;
+    margin-left: 40px;
+}
+.titre_film-la-planete-des-singes-suprematie-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.titre_film-the-batman-en{
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }

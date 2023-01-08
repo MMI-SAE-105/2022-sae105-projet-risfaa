@@ -20,84 +20,86 @@
 
     <nav class="menu">
         <ul>
-            <li class="menu__list"><a href="./Manhattan.html">Manhattan</a></li>
-            <li class="menu__list"><a href="./Ice_Cube_it_was_a_good_day.html">Ice Cube : it was a good day</a></li>
-            <li class="menu__list"><a href="./Batman_annee_un.html">Batman année un</a></li>
-            <li class="menu__list"><a href="./The_Batman.html">The Batman</a></li>
-            <li class="menu__list"><a href="./ia_vs_humain.html">Ia vs Humains</a></li>
-            <li class="menu__list"><a href="./solutions_rechauffement_climatique.html">Solutions réchauffement climatique</a></li>
+            <li class="menu__list"><a href="./Manhattan_en.html">Manhattan</a></li>
+            <li class="menu__list"><a href="./Ice_Cube_it_was_a_good_day_en.html">Ice Cube : it was a good day</a></li>
+            <li class="menu__list"><a href="./Batman_year_man.html">Batman year one</a></li>
+            <li class="menu__list"><a href="./The_Batman_en.html">The Batman</a></li>
+            <li class="menu__list"><a href="./ia_vs_humain_en.html">Ia vs Humains</a></li>
+            <li class="menu__list"><a href="./solutions_against_global_warming.html">Solutions against global warming</a></li>
         </ul>
     </nav>
 
 </header>
 
+<main>
 
-    <main>
+  <form class="form__container" action="#">
+      <h2 class="form__title">Contact</h2>
 
-        <form class="form container" action="#">
-            <h2 class="form__title">Contact</h2>
+      <p class="form__input">
+        <label for="firstname">Last name, first name</label>
+          <input class="form_box" type="text" id="name" name="name" value="" placeholder="Enter your first and last name">
+      </p>
 
-              <label for="firstname">Nom, prénom<br>
-                <input type="text" id="name" name="name" value="" placeholder="Entrer votre nom, prénom">
-              </label>
-            </p>
+      <p class="form__input">
+        <label for="lastname">E-mail</label>
+          <input class="form_box" type="email" id="email" name="last-name" value="" placeholder="Enter your email address">
+      </p>
 
-            <p class="form__input">
-              <label for="lastname">E-mail<br>
-                <input type="email" id="email" name="last-name" value="" placeholder="Entrer votre adresse mail">
-              </label>
-            </p>
+      <p class="form__input">
+        <label for="firstname">Phone number</label>
+          <input class="form_box" type="tel" id="téléphone" name="téléphone" value="" placeholder="Enter your phone number">     
+      </p>
 
-            <p class="form__input">
-              <label for="firstname">Téléphone<br>
-                <input type="tel" id="téléphone" name="téléphone" value="" placeholder="Entrer votre numéro de téléphone">
-              </label>
-            </p>
+      <p class="form__input">
+        <label for="birthday">Subject of your message</label>
+          <input class="form_box" type="text" id="sujet" name="message" value="" placeholder="enter the subject of your message">     
+      </p>
 
-            <p class="form__input">
-              <label for="birthday">Sujet de votre message<br>
-                <input type="text" id="sujet" name="message" value="" placeholder="Entrer le sujet de votre message">
-              </label>
-            </p>
+      <p class="form__input">
+        <label for="address">Message</label>
+          <textarea class="form_box" rows="6" id="message" name="message" value="" placeholder="Enter your message"> </textarea>
+      </p>
 
-            <p class="form__input">
-              <label for="address">Message<br>
-                <textarea rows="6" id="message" name="message" value="" placeholder="Entrer votre message"> </textarea>
-              </label>
-            </p>
+      <button class="form_button" type="submit">Send</button>
 
-            <button type="submit">Envoyez</button>
+    </form>
 
-          </form>
-
-    </main>
+</main>
 
 
 
 
     <footer>
-        <h1>Souvenir d'avant</h1>
+      <h1 class="footer__nom-site">Souvenir d'avant</h1>
 
-        <img src="../public/asset/icone/MMI_dut_small_white 2.svg" alt="logo mmi montbélard">
+      <img class="footer__logo-mmi" src="../public/asset/icone/MMI_dut_small_white 2.svg" alt="logo mmi montbélard">
 
-        <ul>
-            <li><a href="./a_propos.html">A propos</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./glossaire.html">Glossaire</a></li>
-            <li><a href="./autres_projets.html">Autres projets</a></li>
-        </ul>
+      <ul>
+          <li class="footer__autres"><a href="./about.html">About</a></li>
+          <li class="footer__autres"><a href="./contact_en.html">Contact</a></li>
+          <li class="footer__autres"><a href="./glossary.html">Glossary</a></li>
+          <li class="footer__autres"><a href="./other_projects.html">Other projets</a></li>
+      </ul>
 
-        <ul>
-            <li><a href="https://twitter.com/Korroooo"><img src="../public/asset/icone/twitter.svg" alt="logo twitter"></a></li>
-            <li><a href="https://www.instagram.com/faritasssse/"><img src="../public/asset/icone/instagram.svg" alt="logo instagram"></a></li>
-            <li><a href="https://www.linkedin.com/in/faris-halepovic-018004254/"><img src="../public/asset/icone/linkedin.svg" alt="logo linkedin"></a></li>
-        </ul>
 
-        <a href="mailto:faris.halepovic@gmail.com">faris.halepovic@gmail.com</a>
-        <p>projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/">MMI Montbéliard</a></p>
-        <p>Faris HALEPOVIC</p>
-        <p>MMI</p>
-    </footer>
+      <ul class="footer__reseaux-sociaux">
+          <li><a href="https://twitter.com/Korroooo"><img class="footer__icone-reseaux" src="../public/asset/icone/twitter.svg" alt="logo twitter"></a></li>
+          <li><a href="https://www.instagram.com/faritasssse/"><img class="footer__icone-reseaux" src="../public/asset/icone/instagram.svg" alt="logo instagram"></a></li>
+          <li><a href="https://www.linkedin.com/in/faris-halepovic-018004254/"><img class="footer__icone-reseaux" src="../public/asset/icone/linkedin.svg" alt="logo linkedin"></a></li>
+      </ul>
+      
+
+      <a class="footer__mailto" href="mailto:faris.halepovic@gmail.com">faris.halepovic@gmail.com</a>
+      <p class="footer__paragraphe">project realised as a part of pedagogical exercise in the department 
+      <a class="footer__lien-mmi" href="http://mmimontbeliard.com/"><strong>MMI of Montbéliard</strong></a></p>
+      
+      <div class="footer__fin">
+          <p>Faris HALEPOVIC</p>
+          <p>MMI</p>
+      </div>
+
+  </footer>
 
 </body>
 </html>
