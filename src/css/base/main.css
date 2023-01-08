@@ -366,7 +366,7 @@ article{
     font-weight: 400;
     padding-bottom: 13px;
     color: var(--blue-egyptien);
-    margin-left: 80px;
+    margin-right: 80px;
 }
 .description_image-lieu-1950{
     font-size: medium;
@@ -374,7 +374,7 @@ article{
     font-weight: 400;
     padding-bottom: 13px;
     color: var(--blue-egyptien);
-    margin-right: 95px;
+    margin-left: 95px;
 }
 .description_image-lieu-1972{
     font-size: medium;
@@ -382,7 +382,7 @@ article{
     font-weight: 400;
     padding-bottom: 13px;
     color: var(--blue-egyptien);
-    margin-left: 80px;
+    margin-right: 85px;
 }
 .description_image-lieu-2001{
     font-size: medium;
@@ -390,7 +390,7 @@ article{
     font-weight: 400;
     padding-bottom: 13px;
     color: var(--blue-egyptien);
-    margin-right: 97px;
+    margin-left: 98px;
 }
 .description_image-lieu-2022{
     font-size: medium;
@@ -398,7 +398,7 @@ article{
     font-weight: 400;
     padding-bottom: 13px;
     color: var(--blue-egyptien);
-    margin-left: 85px;
+    margin-right: 87px;
 }
 .legend_video{
     text-align: center;
