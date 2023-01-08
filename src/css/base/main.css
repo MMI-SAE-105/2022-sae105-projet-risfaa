@@ -170,6 +170,7 @@ article{
     margin-top: 75px;
     box-shadow: black 1px 1px 3px;
     padding: 10px;
+    contain: content;
 }
 .contenu_texte-article-lieu{
     padding: 7px;
