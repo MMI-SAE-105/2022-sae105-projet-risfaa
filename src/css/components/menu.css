@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     color: black;
     list-style: none;
     font-family:'Inter', sans-serif;
@@ -53,5 +53,5 @@
 }
 .menu__list>a{
     text-decoration: none;
-    color: black;
+    color: var(--blue-egyptien);
 }
