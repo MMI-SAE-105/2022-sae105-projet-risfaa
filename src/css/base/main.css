@@ -272,6 +272,9 @@ article{
     margin-bottom: 25px;
     color: var(--blue-egyptien);
 }
+.titre_autres-projets-eleves a{
+    color: var(--blue-egyptien);
+}
 .nom_eleves{
     text-align: center;
     margin-top: -25px;
